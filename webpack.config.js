@@ -47,11 +47,6 @@ module.exports = {
       title: 'INDEX',
       template: './pug/index.pug'
     }),
-    new htmlWebpackPlugin({
-      title: 'AGO',
-      filename: 'ago.html',
-      template: './pug/ago.pug'
-    }),
     /*
     new htmlWebpackPlugin({
       title: 'AWAKE - Hello',
